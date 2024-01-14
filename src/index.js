@@ -1,5 +1,5 @@
-import '../css/style.scss';
+import './style.scss';
 
-import Search from './modules/Search';
+import Search from './Search';
 
 const search = new Search();
