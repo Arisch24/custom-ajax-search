@@ -1,0 +1,75 @@
+# Ignore node_modules directory
+/node_modules
+
+# Ignore build directories
+/dist
+/build
+/out
+
+# Ignore development and configuration files
+/.vscode
+/.idea
+*.code-workspace
+*.sublime-workspace
+*.sublime-project
+*.iml
+*.DS_Store
+*.log
+
+# Ignore package-lock files
+/package-lock.json
+/yarn.lock
+
+# Ignore any files containing sensitive information
+/.env
+
+# Ignore backups and temporary files
+*.bak
+*.swp
+*.swo
+*.tmp
+
+# Ignore composer dependencies
+/vendor
+
+# Ignore runtime and user-specific files
+/runtime
+/uploads
+/wp-content/uploads
+/wp-content/upgrade
+
+# Ignore local development files
+/config.local.php
+/deploy.sh
+/tools/deploy/
+
+# Ignore any custom build directories
+/custom-build
+
+# Ignore database connection configuration
+/wp-config.php
+
+# Ignore cache directories
+/cache
+/wp-content/cache
+
+# Ignore logs and log directories
+/logs
+/wp-content/debug.log
+
+# Ignore compiled JavaScript and CSS files
+*.min.js
+*.min.css
+
+# Ignore dependency directories
+/bower_components
+/jspm_packages
+
+# Ignore IDE-specific files
+.idea/
+.project
+.projectpath
+*.tmproj
+*.komodoproject
+*.sublime-workspace
+*.subl

@@ -1,0 +1,34 @@
+{
+	"name": "custom-ajax-search",
+	"version": "1.0.0",
+	"description": "Custom AJAX Search for WordPress",
+	"main": "index.js",
+	"scripts": {
+		"start": "wp-scripts start",
+		"build": "wp-scripts build",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Arisch24/custom-ajax-search.git"
+	},
+	"keywords": [
+		"wordpress",
+		"plugin",
+		"ajax",
+		"search"
+	],
+	"author": "Arischvaran Puvanesvaran",
+	"license": "GPL-2.0-or-later",
+	"bugs": {
+		"url": "https://github.com/Arisch24/custom-ajax-search/issues"
+	},
+	"homepage": "https://github.com/Arisch24/custom-ajax-search#readme",
+	"devDependencies": {
+		"@wordpress/scripts": "^26.19.0",
+		"autoprefixer": "^10.4.16"
+	},
+	"dependencies": {
+		"normalize.css": "^8.0.1"
+	}
+}
