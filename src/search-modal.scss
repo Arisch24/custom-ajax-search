@@ -144,9 +144,7 @@
 
 /* search results */
 #search-overlay__results {
-	--height: 398px;
 	flex-grow: 1;
-	height: var(--height);
 }
 
 #search-overlay__results p {
@@ -155,7 +153,7 @@
 
 .scroll {
 	overflow: auto;
-	max-height: var(--height);
+	max-height: var(--height, 398px);
 }
 
 .list--none {

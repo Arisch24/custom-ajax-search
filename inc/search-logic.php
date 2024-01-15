@@ -25,7 +25,7 @@ function quotesSearchResults($data)
     $mainQuery = new WP_Query(array(
         'post_type' => array('post', 'page', 'quote-author', 'famous-quote'),
         's' => sanitize_text_field($data['term']),
-        'posts_per_page' => 10,
+        'posts_per_page' => 15,
     ));
 
     $results = array(
